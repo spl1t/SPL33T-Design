@@ -1,0 +1,161 @@
+*{	
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{	
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 100%;
+	background: #2f3540;
+	display: flex;
+}
+.header__logo{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: : pointer;
+	margin-top: 5px;
+	margin-left: 20%;
+}
+nav{
+	margin-top: 5px;
+	margin-left: 40%;
+}
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 5px 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.topnav a:hover{
+	border-bottom: 3px solid #fff;
+}
+.topnav .icon{
+	display: none;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main .main__welcome{
+	background: #f2ede4;
+	text-align: center;
+	padding: 110px 0 200px 0;
+}
+main .main__welcome h1{
+	color: #276f64;
+	font-size: 70px;
+}
+main .main__welcome p{
+	color: #276f64;
+	font-size: 20px;
+}
+.SPL33T{
+	color: #fff;
+}
+.wrapper{
+	text-align: center;
+	padding: 50px 0 50px 0;
+	background-color: #d5cdc3;
+}
+main .main__about{
+	
+}
+
+.main__about h1{
+	display: inline-block;
+	font-size: 40px;
+}
+main .skills__box a{
+	display: inline-block;
+	border-radius: 10%;
+	font-size: 30px;
+	color: black;
+	margin: 10px 10px 0 0;
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+	background: #f2ede4;
+}
+
+.main__stuff{
+	background: #f2ede4;
+	text-align: center;
+	padding: 50px 0 50px 0;
+}
+
+.main__stuff h1{
+	font-size: 40px;
+}
+.photo{
+	background-image: url(img/1pic.jpg);
+	width: 330px;
+	height: 210px;
+	margin: 20px auto;
+}
+.photo2{
+	background-image: url(img/2pic.jpg);
+	width: 330px;
+	height: 210px;
+	margin: 20px auto;
+}
+.photo3{
+	background-image: url(img/3pic.jpg);
+	width: 330px;
+	height: 210px;
+	margin: 20px auto;
+}
+
+.team__cards{
+	display: flex;
+	justify-content: center;
+}
+.card{
+	padding: 20px;
+}
+
+
+@media screen and (max-width: 920px) {
+	.topnav a{
+		display: none;
+	}
+	.topnav a.icon{
+		float: right;
+		margin-top: -3px;
+		display: block;
+		color: #fff;
+		font-size:  25px;
+	}
+	nav{
+		width: 100%;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+	header .topnav.responsive{
+		height: 150px;
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.team__cards{
+		flex-direction: column;
+}
