@@ -1,0 +1,281 @@
+*{	
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+li{	
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 100%;
+	background: black;
+	display: flex;
+}
+nav{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto 
+}
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 5px 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.topnav .icon{
+	display: none;
+}
+
+
+
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main .main__welcome{
+	background-color: #1A1A1A;
+	padding: 0px 0 0px 0;
+}
+
+/**ЛОГО**/
+
+.main__welcome welcomelogo {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.main__welcome .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+
+
+/**СТАФ**/
+
+
+main2{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main2 .main__stuff{
+	background: #d9d1c7;
+	text-align: center;
+	padding: 0px 0 0px 0;
+}
+/*Mobile*/
+@media only screen and (max-width : 690px) {
+	.imageboxcontainer imagebox {
+		width: 100%;
+		position: relative;
+		float: left;
+		text-align: center;
+	}
+
+	.imageboxcontainer imagebox .text {
+		z-index: 100;
+		position: absolute;
+		color: white;
+		font-size: 10vw;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 30%;
+	}
+
+	.imageboxcontainer imagebox .subtext {
+		z-index: 100;
+		position: absolute;
+		color: white;
+		font-size: 3vw;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 55%;
+	}
+
+	.imageboxcontainer fullwidthimagebox .text {
+		z-index: 100;
+		position: absolute;
+		color: white;
+		font-size: 10vw;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 15%;
+	}
+
+	.imageboxcontainer fullwidthimagebox .subtext {
+		z-index: 100;
+		position: absolute;
+		color: white;
+		font-size: 2vh;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 65%;
+	}
+}
+
+/*Desktop*/
+@media only screen and (min-width: 690px) {
+	.imageboxcontainer imagebox {
+		width: 50%;
+		position: relative;
+		float: left;
+		text-align: center;
+	}
+	.imageboxcontainer fullwidthimagebox .subtext {
+		z-index: 100;
+		position: absolute;
+		color: white;
+		font-size: 2vh;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 45%;
+	}
+}
+
+.image__work fullwidthimagebox {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+.imageboxcontainer .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+/**СКИЛЛЫ**/
+
+main3{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main3 .main__skills{
+	background-color: #1A1A1A;
+	padding: 0px 0 0px 0;
+}
+
+.main__skills welcomeskills {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.main__skills .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+
+/**КОНТАКТЫ**/
+
+main4{
+	display: flex;
+	width: 100%;
+	background-color: black;
+	padding: 10px 0 10px 0;
+	color: #fff;
+	justify-content: center;
+		font-weight: bold;
+}
+
+
+
+
+
+
+
+/**СТРАНИЦА КАТЕГОРИИ**/
+
+.image__work imagework {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.image__work .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+	.topnav a{
+		display: none;
+	}
+	.topnav a.icon{
+		float: right;
+		margin-top: -3px;
+		display: block;
+		color: #fff;
+		font-size:  25px;
+	}
+	nav{
+		width: 100%;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+	}
+	header .topnav.responsive{
+		height: 150px;
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+
+
+
+
+
+
+
+/*ТЕСТ*/
+
