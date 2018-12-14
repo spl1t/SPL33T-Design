@@ -40,6 +40,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	min-height: 100vh;
 }
 main .main__welcome{
 	background-color: #1A1A1A;
