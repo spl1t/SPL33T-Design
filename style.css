@@ -1,0 +1,322 @@
+*{	
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+li{	
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+html, body {height: 100%; min-height: 100%}
+
+
+
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/back4back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  		background-attachment: fixed;
+}
+
+
+
+.child2{
+ height: 100%;
+	background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: scroll;
+}
+
+
+
+.container {
+    display: flex;
+    height: 100%;
+    background-image: url(img/next.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+		background-position: center;
+				background-attachment: fixed;
+}
+
+
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 50px;
+}
+
+.arrows path {
+	stroke: white;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+/**СКИЛЛЫ**/
+
+
+
+.child5{
+	width: 100%;
+ height: 100%;
+  background-image: url(img/back10.jpg);
+	background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url(img/ski.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+		background-position: center;
+}
+
+
+main2{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main2 .main__stuff{
+	background: #d9d1c7;
+	text-align: center;
+	padding: 0px 0 0px 0;
+}
+/*Mobile*/
+@media only screen and (max-width : 690px) {
+	.imageboxcontainer imagebox {
+		width: 100%;
+		position: relative;
+		float: left;
+		text-align: center;
+	}
+
+	.imageboxcontainer imagebox .text {
+		position: absolute;
+		color: white;
+		font-size: 10vw;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 30%;
+	}
+
+	.imageboxcontainer imagebox .subtext {
+		position: absolute;
+		color: white;
+		font-size: 3vw;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 55%;
+	}
+
+	.imageboxcontainer fullwidthimagebox .text {
+		position: absolute;
+		color: white;
+		font-size: 10vw;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 15%;
+	}
+
+	.imageboxcontainer fullwidthimagebox .subtext {
+		position: absolute;
+		color: white;
+		font-size: 2vh;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 65%;
+	}
+}
+
+/*Desktop*/
+@media only screen and (min-width: 690px) {
+	.imageboxcontainer imagebox {
+		width: 50%;
+		position: relative;
+		float: left;
+		text-align: center;
+	}
+	.imageboxcontainer fullwidthimagebox .subtext {
+		position: absolute;
+		color: white;
+		font-size: 2vh;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		top: 45%;
+	}
+}
+
+.image__work fullwidthimagebox {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+.imageboxcontainer .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+
+
+
+/**КОНТАКТЫ**/
+
+
+
+
+
+
+
+
+/**СТРАНИЦА КАТЕГОРИИ**/
+
+.image__work imagework {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.image__work .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+
+/**ВИДЕО**/
+
+.video__work videowork {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+	justify-content: center;
+	padding: 0px 0 20px 0;
+
+}
+.video__work h5 {
+	text-align: center;
+	justify-content: center;
+	color: black;
+	font-size: 20px;
+	padding: 20px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+	.topnav a{
+		display: none;
+	}
+	.topnav a.icon{
+		float: right;
+		margin-top: -3px;
+		display: block;
+		color: #fff;
+		font-size:  25px;
+	}
+	nav{
+		width: 100%;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+	}
+	header .topnav.responsive{
+		height: 150px;
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+
+
+
+
+
+
+
+/*ТЕСТ*/
+
+
+
+
+
