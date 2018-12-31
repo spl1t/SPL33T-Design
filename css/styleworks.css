@@ -1,0 +1,54 @@
+body
+{
+	margin: 0;
+background-color: black;
+}
+
+
+.closebutton{
+  position: fixed;
+  left: 90%;
+	top: 2%;
+	z-index: 100;
+}
+
+.closebutton .closeimg{
+	width: 70%;
+	height: 70%;
+}
+
+/*---------------------СТРАНИЦА  РАБОТЫ---------------------*/
+.image__work imagework {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.image__work .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+/*---------------------СТРАНИЦА  ВИДЕО---------------------*/
+.video__work videowork {
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+	justify-content: center;
+	padding: 0px 0 20px 0;
+}
+
+
+.video__work h5 {
+	text-align: center;
+	justify-content: center;
+	color: white;
+	background-color: 
+	font-size: 20px;
+	padding: 20px 0 20px 0;
+}
