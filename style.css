@@ -1,0 +1,254 @@
+body
+{
+	margin: 0;
+}
+
+
+@font-face{
+	font-family: 'BEBASb';
+	src: url('fonts/BebasNeue Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'BEBASl';
+	src: url('fonts/BebasNeue Book.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.inlinebox{
+	display: block;
+	height: auto;
+	background-color: black;
+}
+
+
+
+
+
+
+/*---------------------ШАПКА---------------------*/
+
+.skilltext
+{
+position: absolute;
+bottom: 0;
+z-index: 100;
+left: 47%;
+}
+
+.skilltext p2
+{
+	color:#FFF;
+	font-size: 55px;
+	font-family: 'BEBASb';
+}
+
+.containerheader
+{
+	display: block;
+	height: 100vh;
+	background-image: url(img/back4back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.logotype
+{
+	display: block;
+	height: 100%;
+	background-image: url(img/next.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+/*---------------------СТАФ---------------------*/
+
+
+.containerstuff
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: black;
+}
+
+
+
+.containerstuff .image
+{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.boxstuff1
+{
+	width: 50%;
+}
+
+
+
+/*---------------------СКИЛЫ---------------------*/
+h1 {
+	color:#FFF;
+	font-size: 50px;
+	font-weight:800;
+	font-family: 'BEBASb';
+	text-transform:uppercase;
+	dispay:block;
+	width:100%;
+	text-align:center;
+	position:relative;
+	text-shadow:0px 1px 2px #000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.linehr hr{
+	width: 50%;
+	margin-bottom: 50px;
+}
+
+p.soft { 
+	color:#FFF;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: 'BEBASl';
+
+
+} 
+
+.containerskill
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100vh;
+	background: black;
+}
+
+.boxskill1
+{
+	background-image: url(img/111.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	align-items: center;
+
+	width: 25%;
+	height: 100%;
+	margin: auto;
+}
+
+.boxskill2
+{
+	background-image: url(img/222.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+
+	width: 25%;
+	height: 100%;
+	margin: auto;
+}
+
+.boxskill3
+{
+	background-image: url(img/333.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+
+	width: 25%;
+	height: 100%;
+	margin: auto;
+}
+
+.boxskill4
+{
+	background-image: url(img/444.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+
+	width: 25%;
+	height: 100%;
+	margin: auto;
+}
+
+
+
+/*---------------------КОНТАКТ---------------------*/
+.containercontact{
+height: 100vh;
+background-color: blue;
+}
+
+
+.vk{
+margin: 0;
+}
+
+
+@media all and (max-width: 600px) {
+	.containerstuff{
+		margin-top: 50vh;
+	}
+	@media all and (max-width: 600px) {
+		.boxstuff1{
+			width: 100%;
+		}
+		@media all and (max-width: 600px) {
+			.linehr hr{
+				margin-bottom: 30px;
+			}
+			@media all and (max-width: 600px) {
+				h1 {
+					font-size: 30px;
+					margin-top: 30px;
+					margin-bottom: 30px;
+				}
+				@media all and (max-width: 600px) {
+					p.soft {
+						font-size: 18px;
+					}
+					@media all and (max-width: 600px) {
+						.containerskill {
+							height: 50vh;
+						}
+						@media all and (max-width: 600px) {
+							.boxskill1 {
+								width: 50%;
+							}
+							@media all and (max-width: 600px) {
+								.boxskill2 {
+									width: 50%;
+								}
+								@media all and (max-width: 600px) {
+									.boxskill3 {
+										width: 50%;
+									}
+									@media all and (max-width: 600px) {
+										.boxskill4 {
+											width: 50%;
+										}
+
+
+
+
+
